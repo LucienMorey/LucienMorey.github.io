@@ -1112,9 +1112,13 @@ $size-header-pad: 4em;
 			margin: 0;
 		}
 
-		.image.avatar {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
+		.author{
+			text-align: center;
+
+			.image.avatar {
+				margin: 0 0 (_size(element-margin) * 0.5) 0;
+			}
+
 		}
 	}
 
